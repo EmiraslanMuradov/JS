@@ -38,8 +38,8 @@ else{
          <td class="user-surname-info">${changeableSurname}</td>
          <td class="user-age-info">${changeableAge}</td>
      </tr>
-    `;
-    let userCheck = document.querySelector("#user-check");
+     <script>
+     let userCheck = document.querySelector("#user-check");
     let userNameInfo = document.querySelector(".user-name-info");
     let userSurnameInfo = document.querySelector(".user-surname-info");
     let userAgeInfo = document.querySelector(".user-age-info");
@@ -55,5 +55,7 @@ else{
             userAgeInfo.setAttribute("style", "background-color: none;");
         }
     });
+     </script>
+    `;
 }
 });
